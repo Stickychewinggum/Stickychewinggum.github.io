@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inoday's Art Commissions</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .price-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .price-table th, .price-table td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    .order-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Inoday's Custom Artworks</h1>
+    <p>Premium handmade art delivered with love</p>
+  </header>
+
+  <section class="section">
+    <h2>Commission Pricing</h2>
+    <table class="price-table">
+      <tr>
+        <th>Size (inches)</th>
+        <th>Sketch</th>
+        <th>Color Pencil</th>
+      </tr>
+      <tr>
+        <td>A5 (5.8" × 8.3")</td>
+        <td>₹699 + ₹299 (frame)</td>
+        <td>₹899 + ₹299 (frame)</td>
+      </tr>
+      <tr>
+        <td>A4 (8.3" × 11.7")</td>
+        <td>₹1500 + ₹400 (frame)</td>
+        <td>₹2500 + ₹400 (frame)</td>
+      </tr>
+      <tr>
+        <td>A3 (11.7" × 16.5")</td>
+        <td>₹2000 + ₹400 (frame)</td>
+        <td>₹3000 + ₹400 (frame)</td>
+      </tr>
+      <tr>
+        <td>A2 (16.5" × 23.4")</td>
+        <td>₹2500 + ₹400 (frame)</td>
+        <td>₹3500 + ₹400 (frame)</td>
+      </tr>
+      <tr>
+        <td>A1 (23.4" × 33.1")</td>
+        <td>₹3000 + ₹400 (frame)</td>
+        <td>₹4000 + ₹400 (frame)</td>
+      </tr>
+    </table>
+    <p class="note">Add ₹300 for detailed backgrounds and ₹600 for oversized/custom pieces</p>
+    <p class="note">Shipping: ₹300 - ₹400. Delivery in 10–15 days or more depending on size.</p>
+    <a href="#order" class="order-btn">Order Now</a>
+  </section>
+
+  <section id="order" class="section">
+    <h2>Order Your Custom Art</h2>
+    <form>
+      <label>Name:<br><input type="text" required></label><br><br>
+      <label>Phone Number:<br><input type="tel" required></label><br><br>
+      <label>Address:<br><textarea required></textarea></label><br><br>
+      <label>Artwork Size:<br>
+        <select required>
+          <option>A5</option>
+          <option>A4</option>
+          <option>A3</option>
+          <option>A2</option>
+          <option>A1</option>
+        </select>
+      </label><br><br>
+      <label>Artwork Type:<br>
+        <select required>
+          <option>Sketch</option>
+          <option>Color Pencil</option>
+        </select>
+      </label><br><br>
+      <label>Extras:<br>
+        <input type="checkbox"> Detailed Background (+₹300)<br>
+        <input type="checkbox"> Big Art (+₹600)<br>
+        <input type="checkbox"> With Frame (+₹400 or ₹299)<br>
+      </label><br><br>
+      <button type="submit" class="order-btn">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Need help? Visit <a href="https://www.chatgpt.com" style="color:white">www.chatgpt.com</a></p>
+    <p>© 2025 Inoday Creations</p>
+  </footer>
+</body>
+</html>
+
+
